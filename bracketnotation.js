@@ -30,7 +30,5 @@ console.log(`${movieArray[row][collumn]}, ${movieArray[row][collumn + 1]}, ${mov
 // Task 4:
 console.log("\nTask 4: ");
 for (row = 0; row < movieArray.length; row ++) {
-    for (collumn = 0; collumn < movieArray[row].length; collumn ++){
-    console.log(movieArray[row][collumn]);
-    }
+    console.log(movieArray[1][row]);
 }
